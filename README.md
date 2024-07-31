@@ -12,6 +12,10 @@ The dataset used for this project is sourced from [Kaggle](https://www.kaggle.co
 
 The core of the project is based on the bert-multilingual-cased model, which is fine-tuned to accurately classify the input text into the specified categories.
 
+You can download the pre-trained models from [Yandex Disk](https://disk.yandex.ru/d/YfJ8sxZOGeHr4Q). Two types of models are available:
+1. Model trained for 1 epoch.
+2. Model trained for 3 epochs.
+
 ## Usage
 
 To utilize this model, input text in Russian and the neural network will output one or more labels indicating the nature of the text (normal, insult, obscenity, threat).
@@ -35,6 +39,10 @@ This project is licensed under the MIT License.
 ## Модель
 
 В основе проекта лежит модель bert-multilingual-cased, которая была дообучена для точной классификации входного текста по указанным категориям.
+
+Вы можете скачать предобученные модели с [Яндекс Диска](https://disk.yandex.ru/d/YfJ8sxZOGeHr4Q). Доступны два типа моделей:
+1. Модель, обученная за 1 эпоху.
+2. Модель, обученная за 3 эпохи.
 
 ## Использование
 
